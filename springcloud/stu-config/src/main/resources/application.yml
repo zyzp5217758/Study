@@ -1,0 +1,10 @@
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/zyzp5217758/stu-config.git
+  application:
+    name: stu-config
+server:
+  port: 8080

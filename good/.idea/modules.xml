@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/good.iml" filepath="$PROJECT_DIR$/good.iml" />
+      <module fileurl="file://$PROJECT_DIR$/good-consumer/good-consumer.iml" filepath="$PROJECT_DIR$/good-consumer/good-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/good-provider/good-provider.iml" filepath="$PROJECT_DIR$/good-provider/good-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/good-api/goodapi.iml" filepath="$PROJECT_DIR$/good-api/goodapi.iml" />
+    </modules>
+  </component>
+</project>

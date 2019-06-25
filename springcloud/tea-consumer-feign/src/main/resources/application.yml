@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: tea-consumer
+feign:
+  hystrix:
+    enabled: true

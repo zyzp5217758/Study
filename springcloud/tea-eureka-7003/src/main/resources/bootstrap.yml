@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    config:
+      profile: dev
+      uri: http://localhost:9001/
+      name: tea-eureka-7003
+      label: master

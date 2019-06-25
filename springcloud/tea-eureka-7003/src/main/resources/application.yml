@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: tea-eureka-7003
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false

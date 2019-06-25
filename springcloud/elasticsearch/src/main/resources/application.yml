@@ -1,0 +1,21 @@
+spring:
+  data:
+    elasticsearch:
+      cluster-name: elasticsearch
+      cluster-nodes: 127.0.0.1:9300
+  application:
+    name: book-elasticsearch
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/cache?characterEncoding=utf8&useSSL=false&serverTimezone=UTC&rewriteBatchedStatements=true
+    password: zy123456lk
+    username: root
+  thymeleaf:
+    cache: false
+    mode: LEGACYHTML5
+server:
+  port: 8080
+security:
+  user:
+    name: admin
+    password: 123456

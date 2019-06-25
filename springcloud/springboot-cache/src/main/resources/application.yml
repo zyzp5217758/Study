@@ -1,0 +1,30 @@
+spring:
+  application:
+    name: springboot-cache
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/cache?characterEncoding=utf8&useSSL=false&serverTimezone=UTC&rewriteBatchedStatements=true
+    password: zy123456lk
+    username: root
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest
+  redis:
+    host: 127.0.0.1
+    port: 6379
+  mail:
+    host: smtp.qq.com
+    protocol: smtp
+    username: 192583306@qq.com
+    password: adsucegxwhghbieg
+    properties:
+      mail:
+        smtp:
+          ssl:
+            enable: true
+server:
+  port: 8080
+mybatis:
+  mapper-locations: classpath:mapper/*.xml

@@ -1,0 +1,35 @@
+spring:
+  application:
+    name: stu-provider
+  profiles:
+    active: dev
+---
+spring:
+  profiles: dev
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka
+  instance:
+    instance-id: student-provider
+    prefer-ip-address: true
+info:
+  name: stu-provider
+  version: 1.0.0
+server:
+  port: 8009
+---
+spring:
+  profiles: test
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka
+  instance:
+    instance-id: student-provider
+    prefer-ip-address: true
+info:
+  name: stu-provider
+  version: 1.0.0
+server:
+  port: 8010

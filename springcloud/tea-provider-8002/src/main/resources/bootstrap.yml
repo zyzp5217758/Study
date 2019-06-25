@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    config:
+      profile: test
+      uri: http://localhost:9001/
+      name: tea-provider-8002
+      label: master
